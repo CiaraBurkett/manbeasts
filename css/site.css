@@ -1,6 +1,90 @@
 @import url("foundation.css");
 
+@font-face {
+    font-family: 'EdoRegular';
+    src: url('../fonts/edo-webfont.eot');
+    src: url('../fonts/edo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/edo-webfont.woff') format('woff'),
+         url('../fonts/edo-webfont.ttf') format('truetype'),
+         url('../fonts/edo-webfont.svg#EdoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ScratchmybackRegular';
+    src: url('../fonts/SCRATCHM-webfont.eot');
+    src: url('../fonts/SCRATCHM-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/SCRATCHM-webfont.woff') format('woff'),
+         url('../fonts/SCRATCHM-webfont.ttf') format('truetype'),
+         url('../fonts/SCRATCHM-webfont.svg#ScratchmybackRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'LondrinaSolidRegular';
+    src: url('../fonts/LondrinaSolid-Regular-webfont.eot');
+    src: url('../fonts/LondrinaSolid-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/LondrinaSolid-Regular-webfont.woff') format('woff'),
+         url('../fonts/LondrinaSolid-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/LondrinaSolid-Regular-webfont.svg#LondrinaSolidRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'LondrinaSketcheRegular';
+    src: url('../fonts/LondrinaSketche-Regular-webfont.eot');
+    src: url('../fonts/LondrinaSketche-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/LondrinaSketche-Regular-webfont.woff') format('woff'),
+         url('../fonts/LondrinaSketche-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/LondrinaSketche-Regular-webfont.svg#LondrinaSketcheRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'LondrinaOutlineRegular';
+    src: url('../fonts/LondrinaOutline-Regular-webfont.eot');
+    src: url('../fonts/LondrinaOutline-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/LondrinaOutline-Regular-webfont.woff') format('woff'),
+         url('../fonts/LondrinaOutline-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/LondrinaOutline-Regular-webfont.svg#LondrinaOutlineRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'LondrinaShadowRegular';
+    src: url('../fonts/LondrinaShadow-Regular-webfont.eot');
+    src: url('../fonts/LondrinaShadow-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/LondrinaShadow-Regular-webfont.woff') format('woff'),
+         url('../fonts/LondrinaShadow-Regular-webfont.ttf') format('truetype'),
+         url('../fonts/LondrinaShadow-Regular-webfont.svg#LondrinaShadowRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
 	background-color: #967D6F;
+	color: #F5F3E9;
+}
+h1 {
+	color: #5E3C39;
+	font-family: 'EdoRegular';
+	font-size: 575%;
+	letter-spacing: 15px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.large-9.columns img {
+	margin-top: -100px;
 }
 
