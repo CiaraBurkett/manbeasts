@@ -32,7 +32,30 @@
         /*  GLOBAL  */
         body {
             background-color: #967D6F;
+            color: #E6D1C1;
+            font-size: 16px;
         }
+        body a {
+            color: #5E3C39;
+            text-decoration: none;
+        }
+        h1 {
+            font-family: 'Liquidism', Garamond, serif;
+            font-size: 75px;
+            margin: 25px 0 25px 0;
+            text-align: center;
+        }
+
+        /*  POSTS  */
+        #posts {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .post {
+            margin-bottom: 60px;
+        }
+
         /*  BEAST  */
         #beast img{
             width: 100%;
@@ -43,10 +66,11 @@
     <body>
         <div class="container">
             <div class="sixteen columns">
+                <h1><a href="{Permalink}">MAN BEASTS!!!</a></h1>
                 <div class="row">
-                    <div class="six columns alpha">
+                    <div class="nine columns alpha">
                         <div class="blog">
-                            <h1>{Title}</h1>
+                            <!-- <h1>MANBEASTS!!!</h1> -->
 
                             <ol id="posts">
                                 {block:Posts}
@@ -168,11 +192,15 @@
                         </div><!-- /.blog -->
                     </div><!-- /.one-third .column -->
 
-                    <div class="ten columns omega">
+                    <div class="seven columns omega">
                         <div id="beast">
                             <img src="http://static.tumblr.com/9qxwzei/7xMmpn0e7/nopeople.png">
-                        </div>
-                    </div><!-- /.ten .columns .omega -->
+                        </div><!-- /#beast -->
+
+                        <div id="player">
+                            <iframe style="border: 0; width: 100%; height: 42px;" src="http://bandcamp.com/EmbeddedPlayer/album=1096185657/size=small/bgcol=333333/linkcol=e99708/transparent=true/" seamless><a href="http://manbeasts.bandcamp.com/album/stealing-feeling-squealing">Stealing, Feeling, Squealing by Man Beasts</a></iframe>
+                        </div><!-- /#player -->
+                    </div><!-- /.seven .columns .omega -->
                 </div><!-- /.row -->
             </div><!-- /.sixteen .columns -->
         </div><!-- /.container -->
